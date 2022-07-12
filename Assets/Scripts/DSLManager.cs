@@ -58,9 +58,9 @@ public class DSLManager : MonoBehaviour {
     private void Awake() {
         //Store data initially
         if (!File.Exists(Application.persistentDataPath + "/Characters.json")) {
-            characters.Add(new Character("BusinessMan", "회사원", 0, true, true));
-            characters.Add(new Character("Rapper", "래퍼", 500, false, false));
-            characters.Add(new Character("Secretary", "비서", 500, false, false));
+            characters.Add(new Character("Biker", "Biker", 0, true, true));
+            characters.Add(new Character("Punk", "Punk", 500, false, false));
+            characters.Add(new Character("Cyborg", "Cyborg", 500, false, false));
             characters.Add(new Character("Boxer", "복서", 1000, false, false));
             characters.Add(new Character("CheerLeader", "치어리더", 1000, false, false));
             characters.Add(new Character("Sheriff", "보안관", 2000, false, false));

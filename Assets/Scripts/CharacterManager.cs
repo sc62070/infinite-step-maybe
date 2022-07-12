@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CharacterManager : MonoBehaviour
 {
     public int index;
-    string[] characterNames = { "회사원", "래퍼", "비서", "복서", "치어리더", "보안관", "배관공" };
+    string[] characterNames = { "Biker", "Punk", "Cyborg", "Unknown", "Unknown", "Unknown", "Unknown" };
     public DSLManager dslManager;
     public GameObject selectBtn, purchaseBtn;
     AudioSource sound;
